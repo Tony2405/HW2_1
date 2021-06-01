@@ -35,7 +35,7 @@ let FilterBlock = React.createClass({
             this.state.sorted = true,
             console.log('clicked')
         } 
-        else{this.setState({array_to_display: this.props.prop_array}),
+        else{this.setState({array_to_display: this.props.prop_array}), //не могу понять как взять начальное значение из пропсов
             this.state.sorted = false,
             console.log("not clicked"),
             console.log(this.props.prop_array)            
